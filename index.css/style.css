@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+
+}
+body{
+    font-family: "Alegreya Sans", sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Alegreya", serif;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.frist-section{
+    background-image: url(../imges/drew-coffman-1872\ \(1\).jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.float-l{
+    float: left;
+}
+.float-r{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+div img{
+    width: 100%;
+}
+
+/*spaces*/
+.w-15{
+    width: 15%;
+}
+.pt-25{
+    padding-top: 25px;
+}
+.py-20{
+    padding-top: 20px;
+}
+.mx-15{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.mr{
+    margin-right: 15px;
+}
+.ml{
+    margin-left: 15px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.pb-31{
+    padding-bottom: 31px;
+}
+.mb-5{
+margin-bottom: 5px;
+}
+.mb-18{
+margin-bottom: 18px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.line-hieght{
+    line-height: 1.9;
+}
+.ml-8{
+    margin-left: 8px;
+}
+
+.p-15{
+    padding: 0 15px;
+}
+
+
+
+.mb-17{
+    margin-bottom: 17px;
+}
+.pt-15{
+    padding: 15px 0;
+}
+.pl-56{
+    padding-left: 56px;
+}
+.mb-2{
+margin-bottom: 2px;
+}
+/*spaces end*/
+.text-white{
+    color: white;
+}
+ul{
+    list-style: none;
+    padding: 0%;
+}
+a{
+    text-decoration: none;
+}
+.center{
+    text-align: center;
+}
+.header{
+    position: relative;
+    top: 20%;
+}
+.content p{
+margin: 20px;
+font-size: 22px;
+font-weight: 400;
+color: #fff;
+opacity: 90%;
+}
+h1{
+    font-size: 76px;
+    font-weight: 400;
+    color: rgb(255,255, 255);
+}
+button {
+    color: white;
+    padding: 20px 28px;
+font-size: 16px;
+font-weight: 700;
+}
+
+.b1{
+    background-color: #8e7754;
+}
+.b1:hover {
+    background-color: #fff;
+    color: black;
+}
+.b2{
+    background-color: transparent;
+}
+.b2:hover {
+    background-color: white;
+    color: black;
+}
+.border1{
+    border-color: #8e7754;
+    border-radius: 8%;
+    -webkit-border-radius: 8%;
+    -moz-border-radius: 8%;
+    -ms-border-radius: 8%;
+    -o-border-radius: 8%;
+}
+.border2{
+    border-color:white;
+    border-radius: 8%;
+    -webkit-border-radius: 8%;
+    -moz-border-radius: 8%;
+    -ms-border-radius: 8%;
+    -o-border-radius: 8%;
+}
+.border:active{
+    border-style: inset;
+}
+
+div .shape{
+    width: 20px;
+    height: 40px;
+    color: white;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+
+/**********************section 2************************/
+.thrid-section{
+    background: #f8f8f8;
+}
+.top-content h2{
+    color: #303030;
+    line-height: 1.38em;
+    font-size: 32px;
+    font-weight: 400;
+}
+.top-content p{
+    line-height: 1.86em;
+    font-size:17px ;
+    font-weight: 400;
+    color: #686868;
+}
+.bottom-content span{
+    font-size: 17px;
+    line-height: 1.86em;
+    font-weight: 400;
+    color: #686868;
+}
+.thrid-section h2{
+    font-size: 1.5rem;
+    color: #303030;
+    line-height: 1.38em;
+    font-weight: 400;
+}
+.thrid-section p{
+    line-height: 1.86em;
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+}
+/***spaces***/
+.mb-35{
+    margin-bottom: 35px;
+}
+.py-section{
+    padding: 90px 19.600px 60px 19.400px;
+}
+.pr-16{
+    padding-right: 16.600px;
+}
+.pl-16{
+    padding-left: 16.600px;
+}
+.mb-25{
+    margin-bottom: 25px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.w-45{
+    width: 45%;
+}
+.padding-15{
+    padding: 15px 0 15px 56px;
+}
+.mb-17{
+    margin-bottom: 17px;
+}
+.pr{
+    padding-right: 16.600px;
+}
+.pl{
+    padding-left: 16.400px;
+}
+
+.mb-30{
+    margin-bottom: 30px;
+}
+.p-lr{
+padding: 0 15px;
+}
+/**********************section 4************************/
+.fourth-section h2{
+    font-size: 30px;
+    color: #303030;
+    line-height: 1.38em;
+    font-weight: 400;
+}
+.fourth-section p{
+    font-size: 17px;
+    color: #888;
+    line-height: 1.86em;
+    font-weight: 400;
+}
+.fourth-section h4{
+    line-height: 1.86em;
+    font-weight: 400;
+    font-size: 22px;
+    color:  #303030;
+}
+.all p{
+    line-height: 1.86em;
+    font-weight: 400;
+    color: #686868;
+    font-size: 17px;
+}
+/*****spaces*****/
+.fourth-section{
+    padding: 70px 19.600px 50px 19.400px;
+}
+.plr-15{
+padding: 0 15px;
+}
+.mtb-60{
+    margin: 10px 0 60px 0;
+}
+.mtb-50{
+    margin: 17px 40.013px 0 40px;
+}
+.p-20{
+    padding: 0 20px 0 15px;
+}
+.p{
+    padding: 20px 15px 0 15px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.text-align{
+    text-align: center;
+}
+.w-30{
+width: 30%;
+}
+.ml-5{
+    margin-left: 5%;
+}
+.mr-5{
+    margin-right: 5%;
+}
+/**********************section 5************************/
+.fivth-section{
+    background-color: #F8F8F8;
+}
+.top-5 h2{
+    color: #303030;
+    line-height: 1.38em;
+    font-weight: 400;
+    font-size: 32px;
+}
+.top-5 p{
+    font-size: 17px;
+    line-height: 1.86em;
+    font-weight: 400;
+    color: #686868;
+}
+.middle-5 p{
+    font-weight: 400;
+    color: #686868;
+    font-size: 17px;
+    line-height: 1.86em;
+}
+ul span{
+    color: #686868;
+    font-size: 17px;
+    font-weight:400 ;
+    line-height: 1.86em;
+
+}
+/*****spaces*****/
+.fivth-section{
+    padding: 85px 19.600px 85px 19.400px;
+}
+.pa{
+    padding: 20px 15px 0 15px;
+}
+.padding-52{
+    padding: 15px 0 15px 52px;
+}
+.pl-16-2{
+    padding-left: 16.600px;
+}
+.px{
+    padding: 0 15px;
+}
+/**********************Footer************************/
+.Footer-top{
+    background-color: #403D38;
+}
+.Footer-bottom{
+    background-color: #353330;
+    padding: 50px 0 40px 0;
+}
+.content h4{
+    color:#FFFFFF ;
+    font-size:18px ;
+    font-weight: 400;
+    opacity: 1;
+    line-height: 1.38em;
+}
+.para p , span{
+    font-weight: 400;
+    line-height: 1.86em;
+    color: #969696;
+    font-size: 16px;
+}
+hr{
+    color: #969696;
+}
+.con-1 h4{
+    padding:0 15.938px;
+}
+
+
+/*****spaces*****/
+.spaces{
+    padding: 60px 0 52px 0;
+}
+.w-22{
+width: 22%;
+}
+.content{
+    margin:0 19.400px 0 19.400px;
+    padding: 50px 15.938px 40px 15.938px;
+}
+.con-1 , .con-2 , .con-3{
+    padding: 0 15.938px;  
+}
+.con-2{
+    padding: 0 14.063;
+    width: 25%;
+}
+.bottom-inner{
+    margin: 10px 0 25px 0;
+    padding: 0 14.063;
+}
+.bottom-inner img{
+    width: 23%;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.links{
+    margin-top:15px ;
+    padding-top: 8px;
+}
+.mr-8{
+    margin-right: 8px;
+}
+.mb-6{
+    margin-bottom: 6px;
+}
+/************backgrounds color for test*********/
+.test1{
+    background-color: blue;
+}
+.test2{
+    background-color: rgb(183, 183, 248);
+}
+.test3{
+    background-color: rgb(67, 67, 70);
+}
+.test4{
+    background-color: rgb(88, 200, 105);
+}
+.test5{
+    background-color: rgb(191, 208, 59);
+}
+.test6{
+    background-color: rgb(217, 100, 17);
+}
+.test7{
+    background-color: rgb(234, 76, 76);
+}
